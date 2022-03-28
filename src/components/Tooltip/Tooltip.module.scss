@@ -1,0 +1,15 @@
+@import '../../assets/style/variable';
+.tooltip{
+    &_container{
+        transform: translateY(110%) translateX(-50%);
+        position: absolute;
+        z-index: 999;
+        pointer-events: none; 
+        padding: 5px 10px;
+        border-radius: 10px;
+        background-color: $color-blue;
+        letter-spacing: -0.015em;
+        font-size: 16px;
+        
+    }
+}

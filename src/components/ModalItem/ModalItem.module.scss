@@ -1,0 +1,24 @@
+@import '../../assets/style/variable';
+
+.item{
+    padding: 5px;
+    margin-top: 10px;
+    &_date{
+        font-weight: 500;
+    }
+    // font-weight: bold;
+    letter-spacing: -0.015em;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    min-width: 280px;
+    height: 50px;
+    background-color: $color-white;
+    border-radius: 10px;
+    transition: 0.1s;
+    &_block{
+        display: flex;
+        justify-content: center;
+        flex: 1 1 30%;
+    }
+}
