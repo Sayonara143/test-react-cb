@@ -13,7 +13,7 @@ export const getListValutes = () => (dispatch) => {
     }
     console.log('22')
     localStorage.clear()
-    localStorage.setItem('cachedEndDate', moment().add(60, 'second'))
+    localStorage.setItem('cachedEndDate', moment().add(3, 'hour'))
     // MoneyAPI.getRateActualAndPrevForDate(moment().format('L').split('/').reverse().join('/'))
     MoneyAPI.getRateActualAndPrev()
     .then(async (response)=> {
